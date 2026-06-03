@@ -31,4 +31,3 @@ class Recipe:
         for i in range(len(self.ingredients)):
             intermediate_stage.append(str(self.ingredients[i]))
         return f'{self.title}: {', '.join(intermediate_stage)}'
-
